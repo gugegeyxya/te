@@ -1,0 +1,8 @@
+function FindProxyForURL(url, host) {
+    // 对于指定的 URL 使用代理服务器
+    if (url == "https://api.winrobot360.com/api/v1/push/notice/receiver/unReadCount") {
+        return "PROXY 1.1.1.1:8080";
+    }
+    // 其他情况直接连接
+    return "DIRECT";
+}
