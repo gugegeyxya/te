@@ -1,8 +1,7 @@
 function FindProxyForURL(url, host) {
-    // 对于指定的 URL 使用代理服务器
-    if (url == "https://api.winrobot360.com/api/v1/push/notice/receiver/unReadCount") {
-        return "PROXY 1.1.1.1:8080";
+    if (shExpMatch(host, "*.translate.googleapis.com") || shExpMatch(host, "*.translate.google.com")) {
+        return "PROXY 192.168.31.249:1111";
+    } else {
+        return "DIRECT";
     }
-    // 其他情况直接连接
-    return "DIRECT";
 }
