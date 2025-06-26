@@ -1,1 +1,24 @@
-
+[
+  {
+    "chainId": "0x1234",
+    "chainName": "MyChain",
+    "rpcUrls": ["https://rpc.mychain.io"],
+    "nativeCurrency": {
+      "name": "My Token",
+      "symbol": "MYT",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.mychain.io"]
+  },
+  {
+    "chainId": "0x8888",
+    "chainName": "DevNet",
+    "rpcUrls": ["https://rpc.devnet.io"],
+    "nativeCurrency": {
+      "name": "Dev Token",
+      "symbol": "DEV",
+      "decimals": 18
+    },
+    "blockExplorerUrls": ["https://explorer.devnet.io"]
+  }
+]
