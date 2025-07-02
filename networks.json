@@ -1,24 +1,20 @@
 [
   {
-    "chainId": "0x1234",
-    "chainName": "MyChain",
-    "rpcUrls": ["https://rpc.mychain.io"],
-    "nativeCurrency": {
-      "name": "My Token",
-      "symbol": "MYT",
-      "decimals": 18
-    },
-    "blockExplorerUrls": ["https://explorer.mychain.io"]
+    "rpcUrl": "https://your-custom-node-1.com",
+    "chainId": "0x13881", // 例如 Polygon Mumbai 的 Chain ID
+    "ticker": "MATIC", // 货币符号
+    "nickname": "My Custom Polygon", // 网络名称
+    "rpcPrefs": {
+      "blockExplorerUrl": "https://mumbai.polygonscan.com"
+    }
   },
   {
-    "chainId": "0x8888",
-    "chainName": "DevNet",
-    "rpcUrls": ["https://rpc.devnet.io"],
-    "nativeCurrency": {
-      "name": "Dev Token",
-      "symbol": "DEV",
-      "decimals": 18
-    },
-    "blockExplorerUrls": ["https://explorer.devnet.io"]
+    "rpcUrl": "https://your-custom-node-2.com",
+    "chainId": "0xAA36A7", // 例如 Sepolia 的 Chain ID
+    "ticker": "ETH",
+    "nickname": "My Custom Sepolia",
+    "rpcPrefs": {
+      "blockExplorerUrl": "https://sepolia.etherscan.io"
+    }
   }
 ]
