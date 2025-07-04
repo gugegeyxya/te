@@ -19,7 +19,7 @@
     ]
   },
   {
-    "chainId": "0xaa36a7",            // Sepolia Testnet
+    "chainId": "0xaa36a7",
     "name": "Sepolia",
     "nativeCurrency": "SEP",
     "iconUrl": "https://assets.example.com/networks/sepolia.svg",
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "chainId": "0x38",                // BSC Mainnet
+    "chainId": "0x38",
     "name": "BSC",
     "nativeCurrency": "BNB",
     "iconUrl": "https://assets.example.com/networks/bsc.svg",
@@ -44,12 +44,4 @@
       {
         "networkClientId": "bsc_default",
         "url": "https://bsc-dataseed.binance.org",
-        "type": "custom",
-        "failoverUrls": [
-          "https://rpc.ankr.com/bsc",
-          "https://bsc-dataseed1.defibit.io"
-        ]
-      }
-    ]
-  }
-]
+        "type": "custom
