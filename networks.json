@@ -1,7 +1,7 @@
 [
   {
     "chainId": "0x1",
-    "name": "Ethereum Mainnet1",
+    "name": "Ethereum Mainnet",
     "nativeCurrency": "ETH",
     "iconUrl": "https://assets.example.com/networks/eth.svg",
     "blockExplorerUrls": ["https://etherscan.io"],
