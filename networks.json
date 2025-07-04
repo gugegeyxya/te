@@ -1,7 +1,7 @@
 [
   {
     "chainId": "0x1",
-    "name": "Ethereum Mainnet",
+    "name": "Ethereum Mainnet1",
     "nativeCurrency": "ETH",
     "iconUrl": "https://assets.example.com/networks/eth.svg",
     "blockExplorerUrls": ["https://etherscan.io"],
@@ -35,7 +35,7 @@
   },
   {
     "chainId": "0x38",
-    "name": "BSC",
+    "name": "BSC2",
     "nativeCurrency": "BNB",
     "iconUrl": "https://assets.example.com/networks/bsc.svg",
     "blockExplorerUrls": ["https://bscscan.com"],
