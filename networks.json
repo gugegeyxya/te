@@ -1,40 +1,55 @@
-{
-  "0x1": {
+[
+  {
     "chainId": "0x1",
     "name": "Ethereum Mainnet",
-    "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    "rpcEndpoints": [
-      {
-        "networkClientId": "mainnet-infura",
-        "url": "https://mainnet.infura.io/v3/your-infura-id",
-        "type": "infura",
-        "failoverUrls": []
-      }
-    ],
+    "nativeCurrency": "ETH",
+    "iconUrl": "https://assets.example.com/networks/eth.svg",
     "blockExplorerUrls": ["https://etherscan.io"],
-    "defaultRpcEndpointIndex": 0
-  },
-  "0x5": {
-    "chainId": "0x5",
-    "name": "Goerli Testnet",
-    "nativeCurrency": {
-      "name": "GoerliETH",
-      "symbol": "gETH",
-      "decimals": 18
-    },
+    "defaultRpcEndpointIndex": 0,
     "rpcEndpoints": [
       {
-        "networkClientId": "goerli-infura",
-        "url": "https://goerli.infura.io/v3/your-infura-id",
+        "networkClientId": "eth_mainnet_infura",
+        "url": "https://mainnet.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
         "type": "infura",
-        "failoverUrls": []
+        "failoverUrls": [
+          "https://rpc.ankr.com/eth",
+          "https://cloudflare-eth.com"
+        ]
       }
-    ],
-    "blockExplorerUrls": ["https://goerli.etherscan.io"],
-    "defaultRpcEndpointIndex": 0
+    ]
+  },
+  {
+    "chainId": "0xaa36a7",            // Sepolia Testnet
+    "name": "Sepolia",
+    "nativeCurrency": "SEP",
+    "iconUrl": "https://assets.example.com/networks/sepolia.svg",
+    "blockExplorerUrls": ["https://sepolia.etherscan.io"],
+    "defaultRpcEndpointIndex": 0,
+    "rpcEndpoints": [
+      {
+        "networkClientId": "sepolia_infura",
+        "url": "https://sepolia.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
+        "type": "infura"
+      }
+    ]
+  },
+  {
+    "chainId": "0x38",                // BSC Mainnet
+    "name": "BSC",
+    "nativeCurrency": "BNB",
+    "iconUrl": "https://assets.example.com/networks/bsc.svg",
+    "blockExplorerUrls": ["https://bscscan.com"],
+    "defaultRpcEndpointIndex": 0,
+    "rpcEndpoints": [
+      {
+        "networkClientId": "bsc_default",
+        "url": "https://bsc-dataseed.binance.org",
+        "type": "custom",
+        "failoverUrls": [
+          "https://rpc.ankr.com/bsc",
+          "https://bsc-dataseed1.defibit.io"
+        ]
+      }
+    ]
   }
-}
+]
