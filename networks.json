@@ -44,4 +44,12 @@
       {
         "networkClientId": "bsc_default",
         "url": "https://bsc-dataseed.binance.org",
-        "type": "custom
+        "type": "custom",
+        "failoverUrls": [
+          "https://rpc.ankr.com/bsc",
+          "https://bsc-dataseed1.defibit.io"
+        ]
+      }
+    ]
+  }
+]
