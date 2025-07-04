@@ -1,38 +1,40 @@
-[
-    {
-      "chainId": "0x1",
-      "chainName": "Ethereum Mainnet",
-      "nativeCurrency": {
-        "name": "Ether",
-        "symbol": "ETH",
-        "decimals": 18
-      },
-      "rpcUrls": ["https://mainnet.infura.io/v3/YOUR_PROJECT_ID"],
-      "blockExplorerUrls": ["https://etherscan.io"],
-      "iconUrls": ["https://example.com/eth-icon.png"]
+{
+  "0x1": {
+    "chainId": "0x1",
+    "name": "Ethereum Mainnet",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
     },
-    {
-      "chainId": "0x89",
-      "chainName": "Polygon Mainnet",
-      "nativeCurrency": {
-        "name": "MATIC",
-        "symbol": "MATIC",
-        "decimals": 18
-      },
-      "rpcUrls": ["https://polygon-rpc.com"],
-      "blockExplorerUrls": ["https://polygonscan.com"],
-      "iconUrls": ["https://example.com/polygon-icon.png"]
+    "rpcEndpoints": [
+      {
+        "networkClientId": "mainnet-infura",
+        "url": "https://mainnet.infura.io/v3/your-infura-id",
+        "type": "infura",
+        "failoverUrls": []
+      }
+    ],
+    "blockExplorerUrls": ["https://etherscan.io"],
+    "defaultRpcEndpointIndex": 0
+  },
+  "0x5": {
+    "chainId": "0x5",
+    "name": "Goerli Testnet",
+    "nativeCurrency": {
+      "name": "GoerliETH",
+      "symbol": "gETH",
+      "decimals": 18
     },
-    {
-      "chainId": "0x38",
-      "chainName": "Binance Smart Chain",
-      "nativeCurrency": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "decimals": 18
-      },
-      "rpcUrls": ["https://bsc-dataseed.binance.org"],
-      "blockExplorerUrls": ["https://bscscan.com"],
-      "iconUrls": ["https://example.com/bnb-icon.png"]
-    }
-  ]
+    "rpcEndpoints": [
+      {
+        "networkClientId": "goerli-infura",
+        "url": "https://goerli.infura.io/v3/your-infura-id",
+        "type": "infura",
+        "failoverUrls": []
+      }
+    ],
+    "blockExplorerUrls": ["https://goerli.etherscan.io"],
+    "defaultRpcEndpointIndex": 0
+  }
+}
