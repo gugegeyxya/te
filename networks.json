@@ -1,20 +1,38 @@
 [
-  {
-    "rpcUrl": "https://your-custom-node-1.com",
-    "chainId": "0x13881", // 例如 Polygon Mumbai 的 Chain ID
-    "ticker": "MATIC", // 货币符号
-    "nickname": "My Custom Polygon", // 网络名称
-    "rpcPrefs": {
-      "blockExplorerUrl": "https://mumbai.polygonscan.com"
+    {
+      "chainId": "0x1",
+      "chainName": "Ethereum Mainnet",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://mainnet.infura.io/v3/YOUR_PROJECT_ID"],
+      "blockExplorerUrls": ["https://etherscan.io"],
+      "iconUrls": ["https://example.com/eth-icon.png"]
+    },
+    {
+      "chainId": "0x89",
+      "chainName": "Polygon Mainnet",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://polygon-rpc.com"],
+      "blockExplorerUrls": ["https://polygonscan.com"],
+      "iconUrls": ["https://example.com/polygon-icon.png"]
+    },
+    {
+      "chainId": "0x38",
+      "chainName": "Binance Smart Chain",
+      "nativeCurrency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://bsc-dataseed.binance.org"],
+      "blockExplorerUrls": ["https://bscscan.com"],
+      "iconUrls": ["https://example.com/bnb-icon.png"]
     }
-  },
-  {
-    "rpcUrl": "https://your-custom-node-2.com",
-    "chainId": "0xAA36A7", // 例如 Sepolia 的 Chain ID
-    "ticker": "ETH",
-    "nickname": "My Custom Sepolia",
-    "rpcPrefs": {
-      "blockExplorerUrl": "https://sepolia.etherscan.io"
-    }
-  }
-]
+  ]
