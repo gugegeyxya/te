@@ -18,6 +18,25 @@
     "blockExplorerUrls": ["https://bscscan.com/"],
     "defaultBlockExplorerUrlIndex": 0
   },
+   {
+    "chainId": "0x38",
+    "name": "BNB Smart Chain5555",
+    "nativeCurrency": "BNB",
+    "rpcEndpoints": [
+      {
+        "networkClientId": "bsc_default",        
+        "url": "https://b2sc-dataseed.binance.org/",
+        "type": "custom",
+        "failoverUrls": [
+          "https://bsc.rpc.blxrbdn.com/",
+          "https://bsc-dataseed1.defibit.io/"
+        ]
+      }
+    ],
+    "defaultRpcEndpointIndex": 0,
+    "blockExplorerUrls": ["https://bscscan.com/"],
+    "defaultBlockExplorerUrlIndex": 0
+  },
   {
     "chainId": "0x89",
     "name": "Polygon Mainnet2222",
