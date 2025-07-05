@@ -9,6 +9,15 @@
     "blockExplorerUrls": ["https://bscscan.com/"]
   },
   {
+    "chainId": "0xaa36a7",
+    "name": "Sepolia1",
+    "nativeCurrency": "eths",
+    "rpcEndpoints": [
+      { "url": "https://eth-sepolia.public.blastapi.io" }
+    ],
+    "blockExplorerUrls": ["https://bscsca1n.com/"]
+  },
+  {
     "chainId": "0x89",
     "name": "Polygon Mainnet",
     "nativeCurrency": "MATIC",
