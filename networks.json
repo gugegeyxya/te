@@ -1,7 +1,7 @@
 [
   {
     "chainId": "0x38",
-    "name": "BNB Smart Chain30",
+    "name": "BNB Smart Chain3110",
     "nativeCurrency": "BNB",
     "rpcEndpoints": [
       {
@@ -20,7 +20,7 @@
   },
   {
     "chainId": "0x89",
-    "name": "Polygon Mainnet22",
+    "name": "Polygon Mainnet2222",
     "nativeCurrency": "MATIC",
     "rpcEndpoints": [
       {
