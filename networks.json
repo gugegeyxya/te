@@ -1,7 +1,7 @@
 [
   {
     "chainId": "0x38",
-    "name": "BNB Smart Chain1",
+    "name": "BNB Smart Chain3",
     "nativeCurrency": "BNB",
     "rpcEndpoints": [
       {
@@ -25,7 +25,7 @@
     "rpcEndpoints": [
       {
         "networkClientId": "polygon_default",
-        "url": "https://2polygon-rpc.com/",
+        "url": "https://4polygon-rpc.com/",
         "type": "custom"
       }
     ],
