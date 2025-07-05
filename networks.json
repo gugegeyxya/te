@@ -1,17 +1,5 @@
 [
   {
-  "chainId": "0x1",
-  "name": "Ethereum Mainnet",
-  "nativeCurrency": "ETH",
-  "rpcEndpoints": [
-    {
-      "url": "https://mainnet.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
-      "type": "infura",
-      "networkClientId": "ethereum-mainnet"
-    }
-  ]
-},
-  {
     "chainId": "0x38",
     "name": "BNB Smart Chain",
     "nativeCurrency": "BNB",
