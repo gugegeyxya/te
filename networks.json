@@ -19,7 +19,7 @@
   },
   {
     "chainId": "0x89",
-    "name": "Polygon Mainnet102",
+    "name": "Polygon Mainnet1032",
     "nativeCurrency": "MATIC",
     "rpcEndpoints": [
       { "url": "https://polygon-rpc.com/" }
