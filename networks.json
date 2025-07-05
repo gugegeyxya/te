@@ -1,5 +1,61 @@
 [
   {
+  "chainId": "0x1",
+  "name": "Ethereum Mainnet",
+  "nativeCurrency": "ETH",
+  "rpcEndpoints": [
+    {
+      "networkClientId": "ethereum-mainnet",
+      "url": "https://mainnet.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
+      "type": "infura",
+      "failoverUrls": [
+        "https://ethereum-mainnet.quicknode.com/5092e82e7bf44114a2459ec25827063a"
+      ]
+    }
+  ],
+  "defaultRpcEndpointIndex": 0,
+  "blockExplorerUrls": ["https://etherscan.io/"],
+  "defaultBlockExplorerUrlIndex": 0
+},
+  {
+    "chainId": "0x2105",
+    "name": "base0",
+    "nativeCurrency": "eth",
+    "rpcEndpoints": [
+      {
+        "networkClientId": "bsc_default",        
+        "url": "https://base.llamarpc.com/",
+        "type": "custom",
+        "failoverUrls": [
+          "https://bsc.rpc.blxrbdn.com/",
+          "https://bsc-dataseed1.defibit.io/"
+        ]
+      }
+    ],
+    "defaultRpcEndpointIndex": 0,
+    "blockExplorerUrls": ["https://bscscan.com/"],
+    "defaultBlockExplorerUrlIndex": 0
+  },
+   {
+    "chainId": "0x38",
+    "name": "BNB Smart Cha5in5556",
+    "nativeCurrency": "BNB",
+    "rpcEndpoints": [
+      {
+        "networkClientId": "bsc_default",        
+        "url": "https://b2sc-dataseed.binance.org/",
+        "type": "custom",
+        "failoverUrls": [
+          "https://bsc.rpc.blxrbdn.com/",
+          "https://bsc-dataseed1.defibit.io/"
+        ]
+      }
+    ],
+    "defaultRpcEndpointIndex": 0,
+    "blockExplorerUrls": ["https://bscscan.com/"],
+    "defaultBlockExplorerUrlIndex": 0
+  },
+   {
     "chainId": "0xaa36a7",
     "name": "Sepolia",
     "nativeCurrency": "eth",
@@ -19,64 +75,8 @@
     "defaultBlockExplorerUrlIndex": 0
   },
   {
-  "chainId": "0x1",
-  "name": "Ethereum Mainnet (Infura)",
-  "nativeCurrency": "ETH",
-  "rpcEndpoints": [
-    {
-      "networkClientId": "ethereum-mainnet",
-      "url": "https://mainnet.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
-      "type": "infura",
-      "failoverUrls": [
-        "https://ethereum-mainnet.quicknode.com/5092e82e7bf44114a2459ec25827063a"
-      ]
-    }
-  ],
-  "defaultRpcEndpointIndex": 0,
-  "blockExplorerUrls": ["https://etherscan.io/"],
-  "defaultBlockExplorerUrlIndex": 0
-},
-  {
-    "chainId": "0x2105",
-    "name": "base",
-    "nativeCurrency": "eth",
-    "rpcEndpoints": [
-      {
-        "networkClientId": "bsc_default",        
-        "url": "https://base.llamarpc.com/",
-        "type": "custom",
-        "failoverUrls": [
-          "https://bsc.rpc.blxrbdn.com/",
-          "https://bsc-dataseed1.defibit.io/"
-        ]
-      }
-    ],
-    "defaultRpcEndpointIndex": 0,
-    "blockExplorerUrls": ["https://bscscan.com/"],
-    "defaultBlockExplorerUrlIndex": 0
-  },
-   {
-    "chainId": "0x38",
-    "name": "BNB Smart Chain5556",
-    "nativeCurrency": "BNB",
-    "rpcEndpoints": [
-      {
-        "networkClientId": "bsc_default",        
-        "url": "https://b2sc-dataseed.binance.org/",
-        "type": "custom",
-        "failoverUrls": [
-          "https://bsc.rpc.blxrbdn.com/",
-          "https://bsc-dataseed1.defibit.io/"
-        ]
-      }
-    ],
-    "defaultRpcEndpointIndex": 0,
-    "blockExplorerUrls": ["https://bscscan.com/"],
-    "defaultBlockExplorerUrlIndex": 0
-  },
-  {
     "chainId": "0x89",
-    "name": "Polygon Mainnet221122",
+    "name": "Polygon Mainnet225500",
     "nativeCurrency": "MATIC",
     "rpcEndpoints": [
       {
