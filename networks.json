@@ -1,12 +1,12 @@
 [
   {
     "chainId": "0x2105",
-    "name": "base in3110",
+    "name": "base",
     "nativeCurrency": "eth",
     "rpcEndpoints": [
       {
         "networkClientId": "bsc_default",        
-        "url": "https://qqqbsc-dataseed.binance.org/",
+        "url": "https://base.llamarpc.com/",
         "type": "custom",
         "failoverUrls": [
           "https://bsc.rpc.blxrbdn.com/",
