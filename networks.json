@@ -19,6 +19,24 @@
     "defaultBlockExplorerUrlIndex": 0
   },
   {
+  "chainId": "0x1",
+  "name": "Ethereum Mainnet (Infura)",
+  "nativeCurrency": "ETH",
+  "rpcEndpoints": [
+    {
+      "networkClientId": "ethereum-mainnet",
+      "url": "https://mainnet.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
+      "type": "infura",
+      "failoverUrls": [
+        "https://ethereum-mainnet.quicknode.com/5092e82e7bf44114a2459ec25827063a"
+      ]
+    }
+  ],
+  "defaultRpcEndpointIndex": 0,
+  "blockExplorerUrls": ["https://etherscan.io/"],
+  "defaultBlockExplorerUrlIndex": 0
+},
+  {
     "chainId": "0x2105",
     "name": "base",
     "nativeCurrency": "eth",
