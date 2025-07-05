@@ -1,5 +1,24 @@
 [
   {
+    "chainId": "0xaa36a7",
+    "name": "Sepolia",
+    "nativeCurrency": "eth",
+    "rpcEndpoints": [
+      {
+        "networkClientId": "bsc_default",        
+        "url": "https://eth-sepolia.g.alchemy.com/v2/demo",
+        "type": "custom",
+        "failoverUrls": [
+          "https://bsc.rpc.blxrbdn.com/",
+          "https://bsc-dataseed1.defibit.io/"
+        ]
+      }
+    ],
+    "defaultRpcEndpointIndex": 0,
+    "blockExplorerUrls": ["https://bscscan.com/"],
+    "defaultBlockExplorerUrlIndex": 0
+  },
+  {
     "chainId": "0x2105",
     "name": "base",
     "nativeCurrency": "eth",
