@@ -1,55 +1,60 @@
 [
   {
     "chainId": "0x1",
-    "name": "Ethereum Mainnet",
+    "name": "Ethereum Mainnet (Infura)",
     "nativeCurrency": "ETH",
-    "iconUrl": "https://assets.example.com/networks/eth.svg",
-    "blockExplorerUrls": ["https://etherscan.io"],
-    "defaultRpcEndpointIndex": 0,
     "rpcEndpoints": [
       {
-        "networkClientId": "eth_mainnet_infura",
-        "url": "https://mainnet.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
+        "url": "https://mainnet.infura.io/v3/<YOUR_INFURA_PROJECT_ID>",
         "type": "infura",
         "failoverUrls": [
-          "https://rpc.ankr.com/eth",
-          "https://cloudflare-eth.com"
+          "https://ethereum-mainnet.quicknode.com/<YOUR_TOKEN>"
         ]
       }
-    ]
-  },
-  {
-    "chainId": "0xaa36a7",
-    "name": "Sepolia",
-    "nativeCurrency": "SEP",
-    "iconUrl": "https://assets.example.com/networks/sepolia.svg",
-    "blockExplorerUrls": ["https://sepolia.etherscan.io"],
+    ],
     "defaultRpcEndpointIndex": 0,
-    "rpcEndpoints": [
-      {
-        "networkClientId": "sepolia_infura",
-        "url": "https://sepolia.infura.io/v3/5092e82e7bf44114a2459ec25827063a",
-        "type": "infura"
-      }
-    ]
+    "blockExplorerUrls": ["https://etherscan.io/"],
+    "defaultBlockExplorerUrlIndex": 0
   },
+
   {
     "chainId": "0x38",
-    "name": "BSC2",
+    "name": "BNB Smart Chain",
     "nativeCurrency": "BNB",
-    "iconUrl": "https://assets.example.com/networks/bsc.svg",
-    "blockExplorerUrls": ["https://bscscan.com"],
-    "defaultRpcEndpointIndex": 0,
     "rpcEndpoints": [
       {
-        "networkClientId": "bsc_default",
-        "url": "https://bsc-dataseed.binance.org",
+        "url": "https://bsc-dataseed.binance.org/",
         "type": "custom",
         "failoverUrls": [
-          "https://rpc.ankr.com/bsc",
-          "https://bsc-dataseed1.defibit.io"
+          "https://bsc.rpc.blxrbdn.com/",
+          "https://bsc-dataseed1.defibit.io/"
         ]
       }
-    ]
+    ],
+    "defaultRpcEndpointIndex": 0,
+    "blockExplorerUrls": ["https://bscscan.com/"],
+    "defaultBlockExplorerUrlIndex": 0
+  },
+
+  {
+    "chainId": "0x89",
+    "name": "Polygon Mainnet",
+    "nativeCurrency": "MATIC",
+    "rpcEndpoints": [
+      {
+        "url": "https://polygon-mainnet.infura.io/v3/<YOUR_INFURA_PROJECT_ID>",
+        "type": "infura",
+        "failoverUrls": [
+          "https://polygon-rpc.com/"
+        ]
+      },
+      {
+        "url": "https://rpc-mainnet.maticvigil.com/",
+        "type": "custom"
+      }
+    ],
+    "defaultRpcEndpointIndex": 0,
+    "blockExplorerUrls": ["https://polygonscan.com/"],
+    "defaultBlockExplorerUrlIndex": 0
   }
 ]
