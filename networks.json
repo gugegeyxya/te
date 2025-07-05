@@ -1,12 +1,12 @@
 [
   {
     "chainId": "0x38",
-    "name": "BNB Smart Chain3",
+    "name": "BNB Smart Chain30",
     "nativeCurrency": "BNB",
     "rpcEndpoints": [
       {
         "networkClientId": "bsc_default",        
-        "url": "https://1bsc-dataseed.binance.org/",
+        "url": "https://bsc-dataseed.binance.org/",
         "type": "custom",
         "failoverUrls": [
           "https://bsc.rpc.blxrbdn.com/",
@@ -20,12 +20,12 @@
   },
   {
     "chainId": "0x89",
-    "name": "Polygon Mainnet",
+    "name": "Polygon Mainnet22",
     "nativeCurrency": "MATIC",
     "rpcEndpoints": [
       {
         "networkClientId": "polygon_default",
-        "url": "https://4polygon-rpc.com/",
+        "url": "https://polygon-rpc.com/",
         "type": "custom"
       }
     ],
