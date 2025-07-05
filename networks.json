@@ -6,7 +6,7 @@
     "rpcEndpoints": [
       {
         "networkClientId": "bsc_default",        
-        "url": "https://bsc-dataseed.binance.org/",
+        "url": "https://1bsc-dataseed.binance.org/",
         "type": "custom",
         "failoverUrls": [
           "https://bsc.rpc.blxrbdn.com/",
@@ -25,7 +25,7 @@
     "rpcEndpoints": [
       {
         "networkClientId": "polygon_default",
-        "url": "https://polygon-rpc.com/",
+        "url": "https://2polygon-rpc.com/",
         "type": "custom"
       }
     ],
