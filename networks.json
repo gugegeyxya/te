@@ -5,7 +5,8 @@
     "nativeCurrency": "BNB",
     "rpcEndpoints": [
       { "url": "https://bsc-dataseed.binance.org/" }
-    ]
+    ],
+    "blockExplorerUrls": ["https://bscscan.com/"]
   },
   {
     "chainId": "0x89",
